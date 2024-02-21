@@ -4,9 +4,10 @@ Ce repository contient une collection de projets réalisés dans le cadre des ch
 
 ## Liste des Projets
 
-1. **Project Name 1**: Description brève du premier projet.
-   - [Démo](lien_vers_la_démo)
-   - [Code source](lien_vers_le_code_source)
+1. **Minimal blog card**: Description brève du premier projet.
+   - [Démo](https://minimal-blog-card-by-brayann.netlify.app/)
+   - [Code source](https://github.com/Raharimanana-BJD/devChanllenges/tree/ch01)
+   - [DevChanllenges](https://devchallenges.io/solution/11850)
 
 2. **Project Name 2**: Description brève du deuxième projet.
    - [Démo](lien_vers_la_démo)
