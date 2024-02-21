@@ -44,7 +44,7 @@ body {
     height: 100%;
 }
 body .container-card {
-    width: 420px;
+    width: 336px;
     box-shadow: 8px 11px 21px -7px rgba(0,0,0,0.21);
     background: var(--bg-card);
     border-radius: 20px;
@@ -56,8 +56,8 @@ body .container-card {
 }
 .card .cover {
     padding: 16px;
-    width: 420px;
-    height: 200px;
+    width: 336px;
+    height: 152px;
 }
 .cover img {
     border-radius: 16px;
@@ -68,11 +68,12 @@ body .container-card {
 .card .content {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 0 16px 16px 16px;
+    gap: 6px;
+    padding: 0 16px 20px 16px;
+    width: 100%;
 }
 .content .text-tag {
-    padding: 2px 8px;
+    padding: 4px 8px;
     background: var(--bg-tag);
     color: var(--text-tag);
     width: fit-content;
@@ -80,7 +81,8 @@ body .container-card {
     font-weight: var(--fw-tagt);
     border-radius: 16px;
 }
-.content .text-title {
+.content .title-text {
+    margin-top: 10px;
     font-size: var(--fs-title);
     color: var(--title);
     font-weight: var(--fw-title);
@@ -90,13 +92,13 @@ body .container-card {
     font-size: var(--fs-body);
     font-weight: var(--fw-body);
     color: var(--body-text);
-    line-height: 24px;
+    line-height: 22px;
 }
 .card hr {
     border: 1px solid var(--bg-body);
 }
 .card .foot-card {
-    padding: 16px;
+    padding: 20px 16px;
 }
 .foot-card p {
     font-size: var(--fs-smallText);
